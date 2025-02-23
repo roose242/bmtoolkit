@@ -121,7 +121,7 @@ try:
                     rows = 255
                     if p == pages:
                         rows = lastrow
-                    for i in range(rows): #res[3]):
+                    for i in range(rows):
                         ecg_fetch_cmd[3] = i
                         res = query_data(ecg_fetch_cmd, 128)
                         result.append(res)
