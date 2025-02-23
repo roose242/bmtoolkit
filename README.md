@@ -72,7 +72,7 @@ I would be glad for hints how to interpret and plot the values!
 
 *Values on column index 10*
 
-I guess it's the AFIB-detected for ECG-datasets. For blood pressure datasets maybe the cuff position control.
+I guess it's the AFlB-detection for ECG-datasets. For blood pressure datasets maybe the cuff position control.
 
 **Rest Data**
 
