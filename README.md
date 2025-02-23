@@ -1,8 +1,8 @@
 # bmtoolkit
 
-Reads data from Beurer Devices.
+Reading data from Beurer BM 96 blood pressure device over USB-HID.
 
-The Beurer BM 96 is the only supported yet. Many other HID-equipped Beurer blood pressure devices may work with just a few changes.
+Many other HID-equipped Beurer blood pressure devices will work with a few changes.
 
 **disclaimer**
 
