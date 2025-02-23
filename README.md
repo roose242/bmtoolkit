@@ -2,7 +2,7 @@
 
 Reads data from Beurer Devices.
 
-The Beurer BM 96 is the only supported yet. Many others may work with just a few changes.
+The Beurer BM 96 is the only supported yet. Many other HID-equipped Beurer blood pressure devices may work with just a few changes.
 
 **disclaimer**
 
