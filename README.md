@@ -47,6 +47,18 @@ options:
                         data delimiter
 ```
 
+**example output**
+```
+dev     sensor  user    index   date_measurement        sys     dia     pulse   rest    info    param10
+BM96    bp      1       0       2025-02-22 11:26        137     94      76      3               0
+BM96    bp      1       1       2025-02-22 12:35        128     87      77      2               0
+BM96    bp      1       2       2025-02-22 12:36        132     89      75      3               0
+BM96    bp      1       3       2025-02-22 19:53        120     78      77      2               0
+BM96    bp      1       4       2025-02-22 19:55        126     84      79      2               0
+BM96    bp      1       5       2025-02-22 21:02        141     98      70      2               0
+BM96    ecg     1       6       2025-02-23 07:02                        70              4       0
+```
+
 **missing parts**
 
 For the BM 96 it's unknown how to interpret the ECG-Data. However it's possible to dump the data:
