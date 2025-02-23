@@ -74,7 +74,7 @@ I would be glad for hints how to interpret and plot the values!
 
 I guess it's the AFlB-detection for ECG-datasets. For blood pressure datasets maybe the cuff position control.
 
-**Rest Data**
+**rest data**
 
 ```
 2 = OK
