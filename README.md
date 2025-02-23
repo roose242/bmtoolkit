@@ -66,7 +66,7 @@ For the BM 96 it's unknown how to interpret the ECG-Data. However it's possible 
 *ECG Data:*
 
 ```
-./bmquery ecgraw
+./bmquery.py ecgraw
 ```
 I would be glad for hints how to interpret and plot the values!
 
