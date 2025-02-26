@@ -75,12 +75,9 @@ I guess it's the AFlB-detection for ECG-datasets. For blood pressure datasets ma
 
 **rest/arr/afib data**
 
-```
 This is what i figured out so far. In case you see a '?'-character within these values, please get in touch with me or file an issue and let me know what is seen on the display + the values of param9 and param10.
 
 Thank You!
-
-```
 
 **permissions**
 
