@@ -10,7 +10,7 @@ This tool is NOT developed by Beurer or on their behalf.
 
 NO WARRANTIES AT ALL!
 
-Please double check the values and see a doctor in case of health problems.
+<ins>Please double check the values and see a doctor in case of health problems.</ins>
 
 **requirements**
 
