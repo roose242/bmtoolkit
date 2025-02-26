@@ -49,14 +49,13 @@ options:
 
 **example output**
 ```
-dev     sensor  user    index   date_measurement        sys     dia     pulse   rest    info    param10
-BM96    bp      1       0       2025-02-22 11:26        137     94      76      3               0
-BM96    bp      1       1       2025-02-22 12:35        128     87      77      2               0
-BM96    bp      1       2       2025-02-22 12:36        132     89      75      3               0
-BM96    bp      1       3       2025-02-22 19:53        120     78      77      2               0
-BM96    bp      1       4       2025-02-22 19:55        126     84      79      2               0
-BM96    bp      1       5       2025-02-22 21:02        141     98      70      2               0
-BM96    ecg     1       6       2025-02-23 07:02                        70              4       0
+dev     sensor  user    index   date_measurement        sys     dia     pulse   rest    arr     afib    param9  param10
+BM96    bp      1       0       2025-02-20 11:26        157     102     76      0       0       0       3       0
+BM96    bp      1       1       2025-02-20 12:35        161     107     77      1       0       0       2       0
+BM96    bp      1       2       2025-02-22 21:02        145     90      70      1       0       0       2       0
+BM96    ecg     1       3       2025-02-23 07:02                        70                              4       0
+BM96    bp      1       4       2025-02-25 11:01        155     91      78              0       1       9       0
+BM96    bp      1       5       2025-02-25 12:54        129     42      68              1       1       13      0
 ```
 
 **missing parts**
@@ -74,11 +73,13 @@ I would be glad for hints how to interpret and plot the values!
 
 I guess it's the AFlB-detection for ECG-datasets. For blood pressure datasets maybe the cuff position control.
 
-**rest data**
+**rest/arr/afib data**
 
 ```
-2 = OK
-3 = NOT OK
+This is what i figured out so far. In case you see a '?'-character within these values, please get in touch with me or file an issue and let me know what is seen on the display + the values of param9 and param10.
+
+Thank You!
+
 ```
 
 **permissions**
