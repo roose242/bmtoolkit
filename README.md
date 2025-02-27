@@ -28,11 +28,11 @@ apt install python3-hid
 **usage**
 
 ```
-usage: bmquery.py [-h] [-u USER] [-i INDEX] [-f FORMAT] [-o PATH] [-d CHAR] FUNCTION [list|ecgraw|info]
+usage: bmquery.py [-h] [-u USER] [-i INDEX] [-f FORMAT] [-o PATH] [-d CHAR] FUNCTION [list|ecgraw|info|version]
 
 positional arguments:
-  FUNCTION [list|ecgraw|info]
-                        function [ecgraw, list, ecgraw] (default: list)
+  FUNCTION [list|ecgraw|info|version]
+                        function [ecgraw, list, info, version]
 
 options:
   -h, --help            show this help message and exit
